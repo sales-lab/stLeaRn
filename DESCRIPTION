@@ -1,0 +1,22 @@
+Package: stLeaRn
+Title: R wrapper for stLearn
+Version: 0.0.1
+Authors@R: 
+    person("Davide", "Corso", role = c("aut", "cre"),
+           email = "davide.corso.2@phd.unipd.it")
+Description: R wrapper for stLearn.
+License: MIT + file LICENSE
+Encoding: UTF-8
+LazyData: true
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.1.1
+URL: https://github.com/sales-lab/stLeaRn
+BugReports: https://github.com/sales-lab/stLeaRn/issues
+Imports: 
+    reticulate,
+    basilisk
+Suggests: 
+    knitr,
+    BiocStyle,
+    rmarkdown,
+VignetteBuilder: knitr
